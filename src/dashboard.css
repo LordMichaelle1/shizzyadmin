@@ -1,0 +1,9 @@
+.dashboard header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    font-family: "Poppins", sans-serif;
+}
+
