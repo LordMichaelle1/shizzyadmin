@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./admin.css";
+import "./login.css";
 
 function AdminLogin() {
     return (
@@ -9,10 +9,10 @@ function AdminLogin() {
                 <form action="">
                     <input required type="email" placeholder="Email/Username" />
                     <input required id="lock" type="password" placeholder="Password"/>
-                    <NavLink to="/dashboard"> <button type="submit">Log In</button> </NavLink>
+                    <button type="submit"><NavLink class to="/dashboard">  Log In </NavLink></button> 
                 </form>
 
-                <a href="#">forgot username/password</a>
+                <a className="forgot" href="#">forgot username/password</a>
             </div>
         </div>
     )
