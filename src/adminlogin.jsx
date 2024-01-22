@@ -12,7 +12,7 @@ function AdminLogin() {
                     <button type="submit"><NavLink class to="/dashboard">  Log In </NavLink></button> 
                 </form>
 
-                <a className="forgot" href="#">forgot username/password</a>
+                <NavLink className="forgot-password" to="/forgotpassword"> forgot username/password </NavLink>
             </div>
         </div>
     )
