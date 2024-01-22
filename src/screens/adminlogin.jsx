@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./login.css";
+import "../styles/login.css";
 
 function AdminLogin() {
     return (

@@ -1,6 +1,6 @@
-import "./dashboard.css";
-import Admin from "./assets/user.png"
-import Dummy from "./assets/third.webp"
+import "../styles/dashboard.css";
+import Admin from "../assets/user.png"
+import Dummy from "../assets/third.webp"
 
 function Dashboard() {
   return (

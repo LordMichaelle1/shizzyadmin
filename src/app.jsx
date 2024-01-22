@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./admindash";
-import AdminLogin from "./adminlogin";
+import Dashboard from "./screens/admindash";
+import AdminLogin from "./screens/adminlogin";
 import ForgotScreen from "./screens/forgot";
 
 function App() {
